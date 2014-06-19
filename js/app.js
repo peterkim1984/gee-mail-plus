@@ -11,9 +11,14 @@ $(function(){
 $('ul li').click(function(){
 
   var emailclicked = $(this).data('emailid')
-    
-  console.log(emailclicked)
-  $("#" + emailclicked).show();
+  if (!$("#" + emailclicked).hasClass("opened")){
+
+  $("#" + emailclicked).show().addClass("opened");
+}
+else
+{
+  $("#" + emailclicked).hide().removeClass("opened");
+}
 });
 
 });
