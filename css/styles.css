@@ -1,0 +1,610 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#header .row {
+  z-index: 100;
+  background: #000000 url("../images/border.png") repeat-x;
+}
+
+#footer {
+  background: #000000 url("../images/border.png") repeat-x;
+}
+
+
+#footer p {
+    margin-bottom: 0px;
+  }
+
+
+/*desktop*/
+@media only screen and (min-width: 64.063em) { 
+
+
+
+  nav.top-bar {
+    height: 143px;
+      background-color: transparent;
+  }
+  nav.top-bar .title-area {
+    height: 143px;
+    width: 500px;
+      background-color: transparent;
+  }
+  nav.top-bar .top-bar-section ul.right {
+    height: 50px;
+    margin-top: 35px;
+      background-color: transparent;
+  }
+
+
+  nav.top-bar .top-bar-section ul.right > li {
+    height: 50px;
+      background-color: transparent;
+  }
+
+  nav.top-bar .title-area .name {
+    height: 143;
+    background-color: transparent;
+  }
+
+  nav.top-bar .title-area .name a{
+    display: block;
+    height: 143;
+    background-color: transparent;
+    
+  }
+
+  nav.top-bar .top-bar-section ul.right > li > a {
+    background-color: transparent;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1ACAC8;
+    font-weight: 700;
+    border-bottom: 6px solid #1ACAC8;
+  }
+
+  nav.top-bar .top-bar-section ul.right > li > a:hover,
+  nav.top-bar .top-bar-section ul.right > li.active > a,
+  nav.top-bar .top-bar-section ul.right > li.active a:hover {
+    background-color: transparent;
+    color: #FFF;
+    border-bottom: 6px solid #FFF;
+  }
+
+  #header {
+    background: #000000 url("../images/border.png") repeat-x;
+    background-color: black;
+
+  }
+
+
+
+  #content .row div.large-9.columns {
+    height: 200px;
+  }
+
+  #scenery {
+    box-shadow: 2px 2px 2px 2px #848485;
+    border: black solid 2px;
+    background-image: url("../images/scenery.png");
+    height: 265px;
+    width: 100%;
+    
+
+  }
+
+  #feature_title {
+    color: #19C3C0;
+    background-color: #000000;
+    text-align: center;
+    font-size: 12px;
+    line-height: 57px;
+  }
+
+  .features {
+    color: #000000;
+    background-color: #19C3C0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 52px;
+    border-top: 1px solid #848484;
+  }
+
+  #features {
+    height: 265px;
+    list-style-type: none;
+    box-shadow: 2px 2px 2px 2px #848485;
+    margin-left: 0px;
+  }
+
+  #content div.row {
+    margin-top: 20px;
+
+  }
+
+  span {
+    color: white;
+  }
+
+  #logo {
+    color: #19C3C0;
+    font-size: 50px;
+  }
+  #flappy {
+      float: left;
+      letter-spacing: 4px;
+
+    }
+
+  #logopic {
+
+      position: absolute;
+      margin-left: 195px;
+      margin-top: -50px;
+      width: 80px;
+    
+  }
+
+  div#header div.row h1{
+    display: block;
+    color: #19C3C0;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+  }
+
+  #app {
+    padding-left: 50px;
+  }
+  div#header div.row h1 span {
+    color: #19C3C0;
+  }
+
+  #footer {
+    padding-top: 30px;
+  }
+  #footer ul {
+    list-style-type: none;
+  }
+
+
+  #bottom_left ul li a {
+    display: block;
+    line-height: 30px;
+    }
+
+  #bottom_mid ul li a {
+    display: block;
+    line-height: 30px;
+    }
+
+  #bottom_right ul li a {
+    display: block;
+    line-height: 30px;
+    }
+
+  #lorem {
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px
+    }
+
+    #footer li a {
+    text-decoration: none;
+    color: #19C3C0;
+    font-size: 12px;
+    border-left: 2px solid #19C3C0;
+     padding-left: 50px;
+  }
+
+  #footer li a:hover {
+    color: #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    padding-left: 50px;
+  }
+
+  #copywrite {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: #19C3C0;
+  }
+
+
+
+  }
+
+/*tablet*/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+
+  nav.top-bar {
+    height: 50x;
+      background-color: transparent;
+  }
+  nav.top-bar .title-area {
+    height: 50px;
+      background-color: transparent;
+  }
+  nav.top-bar .top-bar-section ul.right {
+    height: 50px;
+    margin-top: 30px;
+      background-color: transparent;
+  }
+
+
+  nav.top-bar .top-bar-section ul.right > li {
+    height: 50px;
+      background-color: transparent;
+  }
+
+  nav.top-bar .title-area .name {
+    height: 50;
+    background-color: transparent;
+  }
+
+  nav.top-bar .title-area .name a{
+    display: block;
+    height: 50;
+    background-color: transparent;
+    
+  }
+
+  nav.top-bar .top-bar-section ul.right > li > a {
+    background-color: transparent;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1ACAC8;
+    font-weight: 700;
+  }
+
+  nav.top-bar .top-bar-section ul.right > li > a:hover,
+  nav.top-bar .top-bar-section ul.right > li.active > a,
+  nav.top-bar .top-bar-section ul.right > li.active a:hover {
+    background-color: transparent;
+    color: #FFF;
+  }
+
+  #logo {
+    color: #19C3C0;
+    font-size: 50px;
+  }
+  #flappy {
+      position: absolute;
+      float: left;
+      font-size: 20px;
+      letter-spacing: 4px;
+      margin-left: 65px;
+      margin-top: -30px;
+
+      text-transform: uppercase;
+
+    }
+
+  #logopic {
+      position: absolute;
+      float: left;
+      width: 70px;
+      margin-left: -10px;
+      margin-top: -20px;
+    
+  }
+  div#header div.row h1{
+    display: block;
+    color: #19C3C0;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+  }
+
+  #app {
+        position: absolute;
+    padding-left: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-top: -10px;
+
+  }
+
+  div#header div.row h1 span {
+  }
+
+  span.app {
+    color: white
+  }
+
+  #scenery {
+  height: 265px;
+  width: 100%;
+    background-image:url("../images/scenery.png");
+    background-repeat:repeat;
+
+  }
+
+  #scontainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #fcontainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #features {
+    list-style-type: none;
+    margin: 0px;
+  }
+
+  #feature_title {
+    color: #19C3C0;
+    background-color: #000000;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+  }
+
+  li.features {
+    color: #000000;
+    background-color: #19C3C0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 40px;
+    border-top: 1px solid #848484;
+  }
+
+  .features span {
+    color: white;
+  }
+
+  #lorem {
+    padding-top: 20px;
+    font-weight: 700;
+  }
+
+  #bottom_left ul li a {
+    display: block;
+    line-height: 25px;
+    }
+
+  #bottom_mid ul li a {
+    display: block;
+    line-height: 25px;
+    }
+
+  #bottom_right ul li a {
+    display: block;
+    line-height: 25px;
+    }
+
+
+      #footer li a {
+    text-decoration: none;
+    color: #19C3C0;
+    font-size: 12px;
+  }
+
+  #footer li a:hover {
+    color: #FFFFFF;
+  }
+
+  #copywrite {
+    height: 25px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 10px;
+  }
+
+  #footer {
+    padding-top: 15px;
+  }
+  }
+
+@media only screen and (max-width: 40em) {
+
+  .top-bar.expanded .title-area {
+    background-color: transparent;
+    color: #19C3C0;
+  }
+
+  nav.top-bar.expanded,
+  .top-bar-section ul,
+  ul.right {
+    background-color: transparent;
+  }
+
+  .top-bar {
+    background-color: transparent;
+  }
+
+
+  nav.top-bar .top-bar-section ul.right > li > a {
+    background-color: transparent;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1ACAC8;
+    font-weight: 700;
+  }
+
+  nav.top-bar .top-bar-section ul.right > li > a:hover,
+  nav.top-bar .top-bar-section ul.right > li.active > a,
+  nav.top-bar .top-bar-section ul.right > li.active a:hover {
+    background-color: transparent;
+    color: #FFF;
+  }
+
+  #logo {
+    color: #19C3C0;
+    font-size: 50px;
+  }
+  #flappy {
+      float: left;
+      font-size: 20px;
+      letter-spacing: 4px;
+      color: #19C3C0; 
+      text-transform: uppercase;
+      padding-left: 30px;
+      margin-top: -35px;
+
+    }
+
+  #logopic {
+      position: absolute;
+      float: left;
+      width: 50px;
+      margin-top: -30px;
+      margin-left: -200px;
+
+    
+  }
+  div#header div.row h1{
+    display: block;
+    color: #19C3C0;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-top: 40px;
+  }
+
+  #app {
+    float: left;
+    font-size: 20px;
+    color: white;
+
+    margin-top: -35px;
+
+  }
+
+  span.app {
+    color: white
+  }
+
+
+  #scenery {
+  height: 265px;
+  width: 100%;
+    background-image:url("../images/scenery.png");
+   background-repeat: repeat;
+
+  }
+
+  #scontainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #fcontainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #features {
+    list-style-type: none;
+    margin: 0px;
+  }
+
+  #feature_title {
+    color: #19C3C0;
+    background-color: #000000;
+    text-align: center;
+    font-size: 12px;
+    line-height: 40px;
+  }
+
+  li.features {
+    color: #000000;
+    background-color: #19C3C0;
+    text-align: center;
+    font-size: 10px;
+    line-height: 40px;
+    border-top: 1px solid #848484;
+  }
+
+  .features span {
+    color: white;
+  }
+
+
+  #lorem {
+    padding-top: 20px;
+    font-weight: 700;
+  }
+
+  #footer {
+    padding-top: 20px;
+    
+  }
+
+  #bottom_left ul li a {
+    display: block;
+    line-height: 25px;
+    color: #19C3C0;
+    }
+
+  #footer.row { 
+    padding-top:20px;
+  }
+
+  #bottom_right ul li a {
+    display: block;
+    line-height: 25px;
+    color: #19C3C0;
+    }
+
+  #bottom_right ul li a:hover {
+    display: block;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+
+
+  #footer li a:hover {
+    color: #FFFFFF;
+  }
+
+  #copywrite {
+    width: 100%;
+    height: 25px;
+    color: white;
+    background-color: #000000;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  #footer li a {
+    text-decoration: none;
+    color: #19C3C0;
+    font-size: 12px;
+  }
+
+  .toggle-topbar {
+    position: absolute;
+    float: right;
+    margin-top: -30px;
+  }
+  #menumenu {
+    display: block;
+    position: absolute;
+    float: right;
+    margin-top: -50px;
+    margin-right: -30px;
+    color: #19C3C0;
+
+  }
+  .top-bar .toggle-topbar.menu-icon a {
+    color: #19C3C0;
+  }
+  .top-bar .toggle-topbar.menu-icon a::after {
+    box-shadow: 0 10px 0 1px #19c3C0, 0 16px 0 1px #19c3C0, 0 22px 0 1px #19c3c0;
+  }
+}
+

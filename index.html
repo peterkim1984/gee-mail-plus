@@ -1,14 +1,17 @@
-<html>
-	<head>
-		<link href="css/style.css" rel="stylesheet" media="screen">
-	</head>
-	<body>
-		<div class="container" id="main">
-			Build Me!
-		</div>
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gee-Mail</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr.js"></script>
+
 <body>
     <div class="container" id="main">
-      <div id="header">
+      <div id="header" class="redback">
         <h1>Gee-Mail PLUS!</h1>   
       </div>
       <div id="mailbox">
@@ -20,5 +23,10 @@
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/mail-generator.js"></script>
     <script src="js/app.js"></script>
+      <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
 	</body>
 </html>
