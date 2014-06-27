@@ -30,6 +30,8 @@ function getRandomElement(arr){
 
 function getNewMessage(){
 	var now = new Date();
+now = now.toString().replace(/UTC\s/,"");
+now = now.replace(/GMT.+/,"");
 	return generateMessage(now);
 }
 
@@ -39,7 +41,10 @@ function getRandomDate(){
 	var day = Math.floor(Math.random() * 30) + 1;
 	var hours = Math.floor(Math.random() * 12) + 1;
 	var minutes = Math.floor(Math.random() * 59) + 1;
-	return new Date(year, month, day, hours, minutes);
+	  var d = new Date(year, month, day, hours, minutes);
+d = d.toString().replace(/UTC\s/,"");
+d = d.replace(/GMT.+/,"");
+	return d;
 }
 
 //load intial GeeMail data to window object
